@@ -56,15 +56,39 @@
 		3B71BA2E2A40A46200F89B27 /* HW11-Kalyk-Azhar */ = {
 			isa = PBXGroup;
 			children = (
-				3B71BA2F2A40A46200F89B27 /* AppDelegate.swift */,
-				3B71BA312A40A46200F89B27 /* SceneDelegate.swift */,
-				3B71BA332A40A46200F89B27 /* ViewController.swift */,
-				3B71BA352A40A46200F89B27 /* Main.storyboard */,
-				3B71BA382A40A46300F89B27 /* Assets.xcassets */,
-				3B71BA3A2A40A46300F89B27 /* LaunchScreen.storyboard */,
-				3B71BA3D2A40A46300F89B27 /* Info.plist */,
+				3B71BA432A40A86F00F89B27 /* App */,
+				3B71BA442A40A87F00F89B27 /* Sourses */,
+				3B71BA452A40A8A000F89B27 /* Resourses */,
 			);
 			path = "HW11-Kalyk-Azhar";
+			sourceTree = "<group>";
+		};
+		3B71BA432A40A86F00F89B27 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3B71BA2F2A40A46200F89B27 /* AppDelegate.swift */,
+				3B71BA312A40A46200F89B27 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3B71BA442A40A87F00F89B27 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				3B71BA332A40A46200F89B27 /* ViewController.swift */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		3B71BA452A40A8A000F89B27 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				3B71BA382A40A46300F89B27 /* Assets.xcassets */,
+				3B71BA352A40A46200F89B27 /* Main.storyboard */,
+				3B71BA3D2A40A46300F89B27 /* Info.plist */,
+				3B71BA3A2A40A46300F89B27 /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
